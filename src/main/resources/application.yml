@@ -1,0 +1,19 @@
+Spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3307/esalon_dev?autoReconnect=true&useSSL=false
+    username: root
+    password:
+    initialize: false
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+---
+---
+spring-doc:
+  api-docs:
+    path: /api-docs
+    swagger-ui:
+      operationsSorter: method
+
